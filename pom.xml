@@ -1,13 +1,11 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-
   <modelVersion>4.0.0</modelVersion>
-  <groupId>io.demo</groupId>
-  <artifactId>test1</artifactId>
-  <version>1.0-SNAPSHOT</version>
-  <packaging>jar</packaging>
-  <name>test1</name>
-  <url>http://maven.apache.org</url>
+
+  <groupId>com.nbcuni.testframework</groupId>
+  <artifactId>test-idx-2.0-member-build</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>Performance Test Script For IDX 2.0 Member Build</name>
 
   <properties>
     <com.google.code.gson>2.3.1</com.google.code.gson>
@@ -121,6 +119,11 @@
                   <artifactId>gson</artifactId>
                   <version>${com.google.code.gson}</version>
                 </dependency>
+                <!-- <dependency>
+                  <groupId>com.splunk</groupId>
+                  <artifactId>splunk-sdk-java</artifactId>
+                  <version>${com.splunk}</version>
+                </dependency> -->
                 <dependency>
                   <groupId>commons-codec</groupId>
                   <artifactId>commons-codec</artifactId>
@@ -157,14 +160,4 @@
         </build>
       </profile>
     </profiles>
-
-    <dependencies>
-      <dependency>
-        <groupId>junit</groupId>
-        <artifactId>junit</artifactId>
-        <version>3.8.1</version>
-        <scope>test</scope>
-      </dependency>
-    </dependencies>
   </project>
-
